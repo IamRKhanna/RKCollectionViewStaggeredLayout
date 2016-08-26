@@ -23,6 +23,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		8451BAD446E64E7DC7176174 /* Pods_RKCollectionViewStaggeredLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFB839A639E3B8B7A4DD029 /* Pods_RKCollectionViewStaggeredLayout_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B74A155E1D7066CE00290945 /* RKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74A15591D7066CE00290945 /* RKCollectionViewCell.m */; };
+		B74A155F1D7066CE00290945 /* RKCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74A155A1D7066CE00290945 /* RKCollectionViewCell.xib */; };
+		B74A15601D7066CE00290945 /* RKCollectionViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B74A155C1D7066CE00290945 /* RKCollectionViewHeaderView.m */; };
+		B74A15611D7066CE00290945 /* RKCollectionViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74A155D1D7066CE00290945 /* RKCollectionViewHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,12 @@
 		7B91CD144869D1360D9E9DC4 /* Pods-RKCollectionViewStaggeredLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKCollectionViewStaggeredLayout_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RKCollectionViewStaggeredLayout_Tests/Pods-RKCollectionViewStaggeredLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9BFB839A639E3B8B7A4DD029 /* Pods_RKCollectionViewStaggeredLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKCollectionViewStaggeredLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74A15581D7066CE00290945 /* RKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCollectionViewCell.h; sourceTree = "<group>"; };
+		B74A15591D7066CE00290945 /* RKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCollectionViewCell.m; sourceTree = "<group>"; };
+		B74A155A1D7066CE00290945 /* RKCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKCollectionViewCell.xib; sourceTree = "<group>"; };
+		B74A155B1D7066CE00290945 /* RKCollectionViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCollectionViewHeaderView.h; sourceTree = "<group>"; };
+		B74A155C1D7066CE00290945 /* RKCollectionViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCollectionViewHeaderView.m; sourceTree = "<group>"; };
+		B74A155D1D7066CE00290945 /* RKCollectionViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RKCollectionViewHeaderView.xib; sourceTree = "<group>"; };
 		E3FA06A15D08C71B59085CAB /* Pods-RKCollectionViewStaggeredLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKCollectionViewStaggeredLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RKCollectionViewStaggeredLayout_Tests/Pods-RKCollectionViewStaggeredLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8B6D56ACFCDA4A9AE19F831 /* Pods_RKCollectionViewStaggeredLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKCollectionViewStaggeredLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,6 +157,12 @@
 				6003F5A5195388D20070C39A /* RKViewController.h */,
 				6003F5A6195388D20070C39A /* RKViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				B74A15581D7066CE00290945 /* RKCollectionViewCell.h */,
+				B74A15591D7066CE00290945 /* RKCollectionViewCell.m */,
+				B74A155A1D7066CE00290945 /* RKCollectionViewCell.xib */,
+				B74A155B1D7066CE00290945 /* RKCollectionViewHeaderView.h */,
+				B74A155C1D7066CE00290945 /* RKCollectionViewHeaderView.m */,
+				B74A155D1D7066CE00290945 /* RKCollectionViewHeaderView.xib */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for RKCollectionViewStaggeredLayout";
@@ -277,6 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				B74A15611D7066CE00290945 /* RKCollectionViewHeaderView.xib in Resources */,
+				B74A155F1D7066CE00290945 /* RKCollectionViewCell.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -391,6 +409,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* RKAppDelegate.m in Sources */,
+				B74A15601D7066CE00290945 /* RKCollectionViewHeaderView.m in Sources */,
+				B74A155E1D7066CE00290945 /* RKCollectionViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* RKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

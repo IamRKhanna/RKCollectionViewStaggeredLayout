@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="RKCollectionViewHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am header" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7s-QZ-8bZ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="V7s-QZ-8bZ" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="394-12-JUi"/>
+                <constraint firstItem="V7s-QZ-8bZ" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="Ahu-xn-5U1"/>
+                <constraint firstAttribute="trailing" secondItem="V7s-QZ-8bZ" secondAttribute="trailing" id="BZq-u6-6tZ"/>
+                <constraint firstAttribute="bottom" secondItem="V7s-QZ-8bZ" secondAttribute="bottom" id="O2a-ju-a5O"/>
+            </constraints>
+            <connections>
+                <outlet property="infoLabel" destination="V7s-QZ-8bZ" id="W3A-0s-ZdK"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+</document>
