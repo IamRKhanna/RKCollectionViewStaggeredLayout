@@ -1,0 +1,6 @@
+framework module RKCollectionViewStaggeredLayout {
+  umbrella header "RKCollectionViewStaggeredLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

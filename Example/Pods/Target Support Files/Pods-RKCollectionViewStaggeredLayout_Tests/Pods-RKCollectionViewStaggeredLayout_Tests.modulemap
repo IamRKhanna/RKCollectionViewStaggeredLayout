@@ -1,0 +1,6 @@
+framework module Pods_RKCollectionViewStaggeredLayout_Tests {
+  umbrella header "Pods-RKCollectionViewStaggeredLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

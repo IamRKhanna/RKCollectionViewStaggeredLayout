@@ -1,0 +1,16 @@
+PODS:
+  - RKCollectionViewStaggeredLayout (0.1.0)
+
+DEPENDENCIES:
+  - RKCollectionViewStaggeredLayout (from `../`)
+
+EXTERNAL SOURCES:
+  RKCollectionViewStaggeredLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RKCollectionViewStaggeredLayout: 344ae02d123f6e6aa338841cf716f9653b3b026e
+
+PODFILE CHECKSUM: 7a3a4d8e76856dba65f311955f3c1de3de67f937
+
+COCOAPODS: 1.0.1
