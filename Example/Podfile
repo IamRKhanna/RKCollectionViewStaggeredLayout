@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RKCollectionViewStaggeredLayout_Example' do
+  pod 'RKCollectionViewStaggeredLayout', :path => '../'
+
+  target 'RKCollectionViewStaggeredLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
