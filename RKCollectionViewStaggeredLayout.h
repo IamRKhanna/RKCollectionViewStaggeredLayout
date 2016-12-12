@@ -132,6 +132,13 @@ NS_CLASS_AVAILABLE_IOS(6_0) @interface RKCollectionViewStaggeredLayout : UIColle
  */
 @property (nonatomic, assign) RKStaggeredCollectionViewRenderDirection renderDirection;
 
+/**
+ *  @brief Stores attributes for all items of all sections
+ *  @discussion
+ *    Array of arrays. Each array stores item attributes for each section
+ *    Set during prepareLayout implementation
+ */
+@property (nonatomic, strong, readonly) NSMutableArray<NSMutableArray<UICollectionViewLayoutAttributes *> *> *sectionItemAttributes;
 @end
 
 

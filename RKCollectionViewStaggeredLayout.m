@@ -20,7 +20,7 @@ NSString *const RKCollectionElementKindSectionFooter = @"RKCollectionElementKind
 /// Array to store attributes for all items includes headers, cells, and footers
 @property (nonatomic, strong) NSMutableArray<UICollectionViewLayoutAttributes *> *allItemAttributes;
 /// Array of arrays. Each array stores item attributes for each section
-@property (nonatomic, strong) NSMutableArray<NSMutableArray<UICollectionViewLayoutAttributes *> *> *sectionItemAttributes;
+@property (nonatomic, strong, readwrite) NSMutableArray<NSMutableArray<UICollectionViewLayoutAttributes *> *> *sectionItemAttributes;
 /// Dictionary to store section headers' attribute
 @property (nonatomic, strong) NSMutableDictionary *headersAttribute;
 /// Dictionary to store section footers' attribute
